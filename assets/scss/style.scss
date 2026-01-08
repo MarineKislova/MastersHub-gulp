@@ -1,0 +1,82 @@
+//утилиты
+@use "utils/_fonts.scss" as *;
+@use "utils/_reset.scss" as *;
+@use "utils/_mixins" as mSt;
+@use "utils/_settings.scss" as setSt;
+@use "utils/_variable.scss" as varSt;
+
+// блоки
+@use "blocks/_header.scss";
+@use "blocks/_signInUp.scss";
+@use "blocks/_seekers.scss";
+@use "blocks/_features.scss";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* Display/D1 */
+.d1 {
+  font-family: "GeneralSans-Variable";
+  line-height: 67px;
+  // color: var(--neutral-900);
+}
+
+/* Heading/H1 */
+.H1 {
+  font-family: "GeneralSans-Variable";
+  @include mSt.adaptiv-value("font-size", 0, 0, 0);
+  @include mSt.adaptiv-value("line-height", 0, 0, 0);
+  font-size: 60px;
+  line-height: 67px;
+  color: var(--neutral-900);
+}
+
+/* Heading/H2 */
+.H2 {
+  font-family: "GeneralSans-Variable";
+  @include mSt.adaptiv-value("font-size", 56, 30, 0);
+  @include mSt.adaptiv-value("line-height", 67, 36, 0);
+  color: var(--neutral-900);
+}
+
+/* Heading/H3 */
+.H3-M {
+  font-family: "GeneralSans-Variable";
+  @include mSt.adaptiv-value("font-size", 0, 0, 0);
+  @include mSt.adaptiv-value("line-height", 0, 0, 0);
+  font-size: 40px;
+  line-height: 67px;
+  color: var(--neutral-900);
+}
+
+/* Heading/H4-SB */
+.H4-M {
+  font-family: "GeneralSans-Variable";
+  @include mSt.adaptiv-value("font-size", 0, 0, 0);
+  @include mSt.adaptiv-value("line-height", 0, 0, 0);
+  font-size: 30px;
+  line-height: 67px;
+  color: var(--neutral-900);
+}
+
+/* Heading/H4-SB */
+.H5-M {
+  font-family: "GeneralSans-Variable";
+  @include mSt.adaptiv-value("font-size", 24, 16, 0);
+  @include mSt.adaptiv-value("line-height", 67, 22, 0);
+  // font-size: 24px;
+  // line-height: 67px;
+  color: var(--neutral-900);
+}

@@ -11,6 +11,16 @@ The main focus of the project is performance optimization, layout stability, and
 - **CCS3/SCSS** (Flexbox, Grid)
 - **JavaScript** (ES6+)
 - **UI-Kit:** no third-party libraries or frameworks
+- **Gulp** (build automation & optimization)
+
+---
+
+## 🔧 Build & Tooling
+- Gulp — build automation and asset optimization
+- CSS and JavaScript minification
+- Autoprefixer for cross-browser compatibility
+- Image optimization
+- Development server with live reload
 
 ---
 

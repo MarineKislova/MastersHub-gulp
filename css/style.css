@@ -1460,10 +1460,32 @@ h6 {
 
 .showcase__pagination-prev {
   cursor: pointer;
+  color: var(--neutral-900);
+  font-size: calc(10px + 14 * (100vw - 320px) / (1920 - 320));
+  border: 1px solid var(--neutral-900);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.showcase__pagination-prev:hover {
+  background-color: var(--primary-500);
+  border: none;
+  color: var(--primary-50);
 }
 
 .showcase__pagination-next {
   cursor: pointer;
+  color: var(--neutral-900);
+  font-size: calc(10px + 14 * (100vw - 320px) / (1920 - 320));
+  border: 1px solid var(--neutral-900);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.showcase__pagination-next:hover {
+  background-color: var(--primary-500);
+  border: none;
+  color: var(--primary-50);
 }
 
 .showcase__portfolio {
@@ -1547,9 +1569,9 @@ h6 {
   border-radius: 5px;
   -o-object-fit: contain;
      object-fit: contain;
-  background: #38454C;
-  -webkit-box-shadow: 2px -3px 8px #38454C;
-          box-shadow: 2px -3px 8px #38454C;
+  background: #38454c;
+  -webkit-box-shadow: 2px -3px 8px #38454c;
+          box-shadow: 2px -3px 8px #38454c;
 }
 
 .expanded .showcase__portfolio-content {

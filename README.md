@@ -64,6 +64,7 @@ This is an architectural limitation rather than a performance optimization issue
 - Minimal main-thread blocking (TBT = 0 ms)
 - Controlled resource loading
 - Stable visual layout across devices
+- Build pipeline configured to avoid render-blocking resources
 
 ---
 

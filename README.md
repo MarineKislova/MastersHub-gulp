@@ -8,7 +8,7 @@ The main focus of the project is performance optimization, layout stability, and
 ## 🔧 Technologies
 
 - **HTML5** (semantic and valid markup)
-- **CSS3** (Flexbox, Grid)
+- **CCS3/SCSS** (Flexbox, Grid)
 - **JavaScript** (ES6+)
 - **UI-Kit:** no third-party libraries or frameworks
 
@@ -20,6 +20,7 @@ The main focus of the project is performance optimization, layout stability, and
 - Modal windows
 - Tabs
 - Accordions
+- Burger menu
 - UI state management using vanilla JavaScript
 
 ---
@@ -35,7 +36,7 @@ The project is optimized according to PageSpeed Insights and Core Web Vitals bes
 - Total Blocking Time (TBT): **0 ms**
 - Cumulative Layout Shift (CLS): **0**
 - Speed Index: **~4.7 s**
-- Performance Score: **77**
+- Performance Score: **78**
 
 ### ℹ️ LCP Limitation Notice
 

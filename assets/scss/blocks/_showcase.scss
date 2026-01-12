@@ -27,10 +27,32 @@
 
   &__pagination-prev {
     cursor: pointer;
+    color: var(--neutral-900);
+    @include mh.adaptiv-value("font-size", 24, 10, 0);
+    border: 1px solid var(--neutral-900);
+    border-radius: 50%;
+    padding: 12px;
+
+    &:hover {
+      background-color: var(--primary-500);
+      border: none;
+      color: var(--primary-50);
+    }
   }
 
   &__pagination-next {
     cursor: pointer;
+    color: var(--neutral-900);
+    @include mh.adaptiv-value("font-size", 24, 10, 0);
+    border: 1px solid var(--neutral-900);
+    border-radius: 50%;
+    padding: 12px;
+
+    &:hover {
+      background-color: var(--primary-500);
+      border: none;
+      color: var(--primary-50);
+    }
   }
 
   &__portfolio {
@@ -101,8 +123,8 @@
   video {
     border-radius: 5px;
     object-fit: contain;
-    background: #38454C;
-    box-shadow: 2px -3px 8px #38454C;
+    background: #38454c;
+    box-shadow: 2px -3px 8px #38454c;
     // height: min-content;
     // width: min-content;
   }

@@ -8,7 +8,7 @@ The main focus of the project is performance optimization, layout stability, and
 ## 🔧 Technologies
 
 - **HTML5** (semantic and valid markup)
-- **CCS3/SCSS** (Flexbox, Grid)
+- **CSS3/SCSS** (Flexbox, Grid)
 - **JavaScript** (ES6+)
 - **UI-Kit:** no third-party libraries or frameworks
 - **Gulp** (build automation & optimization)
